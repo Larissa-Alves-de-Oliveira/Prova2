@@ -10,7 +10,7 @@
     <ul>
         <li><a href="cadastro_fluxo_de_caixa.html">Cadastro</a></li>
         <li><a href="listar_fluxo_caixa.php">Listagem</a></li>
-        <li><a href="">Consulta</a></li>
+        <li><a href="consultar_fluxo_de_caixa.html">Consulta</a></li>
     </ul>
 </body>
 </html>

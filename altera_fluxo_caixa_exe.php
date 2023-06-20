@@ -3,7 +3,9 @@
 
     $id = $_POST['id'];
     $data = $_POST['data'];
-    $tipo = $_POST['tipo']; //Recebendo valores do campo formulário
+    $tipo = $_POST['tipo'];
+     //Recebendo valores do campo formulário
+    $cheque = $_POST['cheque'];
     $valor = $_POST['valor'];
     $historico = $_POST['historico'];
 
@@ -13,6 +15,7 @@
             id='$id',
             data='$data',  
             tipo='$tipo',
+            cheque='$cheque',
             valor='$valor',
             historico='$historico',
             WHERE id=$id"; 
